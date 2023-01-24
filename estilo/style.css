@@ -56,7 +56,8 @@ header > p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.371);
     
 }
 
@@ -97,14 +98,14 @@ main{
         }
 
 main h1{
-    font-family: var(--font-android, --font-padrao);
+    font-family: var(--font-android,);
     color: var(--cor4);
     text-indent: 8px;
     font-weight: normal;
     font-size: 1.8em;
 }
 main h2{
-    font-family: var(--font-android, --font-padrao);
+    font-family: var(--font-android);
     color: var(--cor4);
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
